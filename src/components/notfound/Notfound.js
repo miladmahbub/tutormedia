@@ -21,6 +21,8 @@ const Notfound = () => {
 		</h3>
 		
 		<p>the page you are looking for not avaible!</p>
+		{/* <Link to="/"><button>Go Back</button>
+            </Link> */}
 		
 		{/* <a href="" class="link_404">Go to Home</a> */}
 	</div>

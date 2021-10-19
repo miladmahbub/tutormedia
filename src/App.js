@@ -8,8 +8,9 @@ import AuthProvider from './context/AuthProvider';
 import About from './components/about/Aboutus';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contactus';
-// import Notfound from './components/notfound/Notfound';
+import Notfound from './components/notfound/Notfound';
 import Footer from './components/footer/Footer';
+import Detail from './components/detail/Detail';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
@@ -35,21 +36,19 @@ function App() {
             <PrivateRoute path="/contactus">
               <Contact></Contact>
             </PrivateRoute>
-            {/* <Route exact path ='*'>
-                <Notfound></Notfound>
-              </Route> */}
+            <PrivateRoute path="/detail/:detailId">
+              <Detail></Detail>
+            </PrivateRoute>
+            
             <Route path="/login">
               <Login></Login>
             </Route>
             <Route path="/register">
               <Register></Register>
             </Route>
-            {/* <PrivateRoute path="/shipping">
-              <Shipping></Shipping>
-            </PrivateRoute>
-            <PrivateRoute path="/placeorder">
-              <PlaceOrder></PlaceOrder>
-            </PrivateRoute> */}
+            <Route path="*">
+              <Notfound></Notfound>
+            </Route>
           </Switch>
           <Footer></Footer>
         </BrowserRouter>

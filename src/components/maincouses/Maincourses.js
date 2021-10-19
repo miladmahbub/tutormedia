@@ -1,8 +1,9 @@
 import React from 'react';
 import './Maincourses.css'
+import { Link } from 'react-router-dom';
 
 const Maincourses = (props) => {
-    const {img,services,price,description} = props.mentors;
+    const {img,services,price,description,id} = props.mentors;
     return (
         <div>
             
@@ -17,8 +18,10 @@ const Maincourses = (props) => {
             <p>{description}</p>
             <div className='d-flex  justify-content-between p-2 '>
             </div>
-            <button 
-            className='button'>Know More</button>
+            {/* <button className='button'>Know More</button> */}
+            <Link to={`/detail/${id}`}>
+            <button className='button'>Know More</button>
+            </Link>
             
         </div>
             </div>
