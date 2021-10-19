@@ -8,7 +8,7 @@ https://hardcore-beaver-1de38a.netlify.app/
 
 I:
 
-### This project was build with with
+### This project was build with
 
  #html-5 
  #bootstrap 
