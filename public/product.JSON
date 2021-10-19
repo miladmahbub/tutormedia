@@ -1,0 +1,46 @@
+[
+    
+
+   {
+      "img":"https://images.adsttc.com/media/images/5978/2661/b22e/3892/3200/00c1/slideshow/harvey_mba_%C2%A9hursley_17.jpg?1501046363",
+      "services":"PEDIATRIC CLINIC",
+      "description":"Paediatrics is the area of medicine that manages medical conditions affecting infants, children and young people.",
+      "price":"3500"
+      
+   },
+   {
+      "img":"https://cytecare.com/wp-content/uploads/2019/08/comprehensive-oncology-cancer-treatment-compressed.jpg",
+      "services":"CANCER CARE",
+      "description":"Cancer and its treatment can cause physical symptoms and side effects. They can also cause emotional, social, and financial effects.",
+      "price":"2500"
+      
+   },
+   {
+      "img":"https://www.medicoverhospitals.in/wp-content/uploads/2020/07/cardio-thoracic-surgery.jpg",
+      "services":"GENERAL SURGERY",
+      "description":"General Surgery is a discipline of surgery having a central core of knowledge embracing anatomy, physiology, metabolism, immunology, nutrition, pathology, wound healing",
+      "price":"4500"
+      
+   },
+   {
+      "img":"https://leverageedu.com/blog/wp-content/uploads/2020/01/BSc-Physiotherapy.jpg",
+      "services":"PHYSIOTHERAPY",
+      "description":"Physical therapy, also known as physiotherapy, is one of the allied health professions.",
+      "price":"6600"
+      
+   },
+   {
+      "img":"https://www.millskidsdds.com/blog/wp-content/uploads/2020/01/pedo-exam.jpg",
+      "services":"DENTAL CARE",
+      "description":"Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders",
+      "price":"7600"
+      
+   },
+   {
+      "img":"https://i.ytimg.com/vi/DdWUam4Wf5c/maxresdefault.jpg",
+      "services":"GENERAL SURGERY",
+      "description":"General Surgery a discipline of surgery having a central core of knowledge embracing anatomy, physiology, metabolism, immunology,",
+      "price":"9500"
+      
+   }
+  ]
